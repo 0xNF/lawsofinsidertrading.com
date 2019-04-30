@@ -1,141 +1,173 @@
 <!DOCTYPE html>
 <html lang="en" style="height: 100%">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, shrink-to-fit=no">
-        <meta name="theme-color" content="#000000">
-        <link rel="shortcut icon" href="static/favicon.png">
-        <title>The Laws of Insider Trading</title>
 
-        <style>
-            body{
-               font-family:  Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
-               margin: 0 5px 0 10px;
-               /* background: #F0F0F0;  */
-               background: #EEEEEE; 
-            }
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link rel="shortcut icon" href="static/favicon.png">
+    <title>The Laws of Insider Trading</title>
 
-            ol {
-                margin-left:0;
-                padding-left:0;
-                counter-reset:item
-            }
+    <style>
+        body {
+            font-family: Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            margin: 0 5px 0 10px;
+            /* background: #F0F0F0;  */
+            background: #EEEEEE;
+        }
 
-            ol>li {
-                 margin-left:0; 
-                 padding-left:0; 
-                 margin-bottom: 0.5em;
-                 counter-increment:item; 
-                 list-style:none inside
-            }
+        ol {
+            margin-left: 0;
+            padding-left: 0;
+            counter-reset: item
+        }
 
-            ol>li:before {
-                content:"(" counter(item) ")"; 
-                font-weight: bold;
-                padding-right:0.5em
-            }
+        ol>li {
+            margin-left: 0;
+            padding-left: 0;
+            margin-bottom: 0.5em;
+            counter-increment: item;
+            list-style: none inside
+        }
 
-            .title {
-                clear: both;
-                color: #b31b1b;
-                font-size: 24px;
-            }
+        ol>li:before {
+            content: "("counter(item) ")";
+            font-weight: bold;
+            padding-right: 0.5em
+        }
 
-            .subtitle {
-                clear: both;
-                color: #b31b1b;
-                font-size: 16px;
-            }
+        .title {
+            clear: both;
+            color: #b31b1b;
+            font-size: 24px;
+        }
 
-            .extra {
-                font-size: 14px;
-            }
-            .hed {
-                margin-top: 1em;
-                padding-top: 1em;
-                font-weight: bold;
-                font-variant: small-caps;
-            }
+        .subtitle {
+            clear: both;
+            color: #b31b1b;
+            font-size: 16px;
+        }
 
-            .center{
-                width: 600px;
-                display: block;
-                background-color: #eee;
-                margin-left: auto;
-                margin-right: auto;
-                padding: 0 10px;
-            }
-        </style>
+        .extra {
+            font-size: 14px;
+        }
 
-    </head style="height: 100%; width: 100%">
-    <body class="center">
+        .hed {
+            margin-top: 1em;
+            padding-top: 1em;
+            font-weight: bold;
+            font-variant: small-caps;
+        }
 
-        <div class="hed">
-            Disclaimer:  None of this is legal advice. 
-        </div>
+        .center {
+            width: 600px;
+            display: block;
+            background-color: #eee;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0 10px;
+        }
+    </style>
 
-        <h1 class="title">§ Laws of Insider Trading</h1>
+</head style="height: 100%; width: 100%">
 
-        <div>
-            <ol>
-                <li>
-                    Don't do it.
-                </li>
-                <li>
-                    Don’t do it by <a href="https://www.bloomberg.com/view/articles/2016-06-14/social-software-and-suspicious-options">buying short-dated out-of-the-money call options</a> on merger targets.
-                </li>
-                <li>
-                    Don’t <a href="https://www.bloomberg.com/view/articles/2016-06-17/boardroom-battles-and-car-washes">text or email</a> about it.
-                </li>
-                <li>
-                    Don’t do it in <a href="https://www.bloomberg.com/view/articles/2017-03-16/robot-traders-and-super-hedge-funds">your mother’s account</a>.
-                </li>
-                <li>
-                    Don’t do it by <a href="https://www.bloomberg.com/view/articles/2017-04-21/juice-hacking-and-mortgage-tech">planting bombs</a> at a company and shorting its stock.
-                </li>
-                <li>
-                    Don’t do it while employed at the <a href="https://www.bloomberg.com/view/articles/2017-05-04/investing-stores-and-libyan-bribes">  Securities and Exchange Commission</a>.
-                </li>
-                <li>
-                    Don’t <a href="https://www.bloomberg.com/view/articles/2017-07-13/main-street-and-premium-listings">Google</a> “how to insider trade without getting caught” before doing it.
-                </li>
-                <li>
-                    If you <em>didn’t</em> insider trade, <a href="https://www.bloomberg.com/view/articles/2017-09-19/memory-mortgages-and-puzzles">don’t forget</a> and accidentally confess to insider trading.
-                </li>
-                <li>
-                    If you are going to insider trade, do it in a company that is <a href="https://www.bloomberg.com/view/articles/2017-10-17/indexes-insiders-and-icos">far away</a> from a Securities and Exchange Commission office. Like, physically.
-                </li>
-                <li>
-                    If you are already under a <a href="https://www.bloomberg.com/view/articles/2018-08-09/musk-s-money-mystery-intrigues-sec">federal ethics investigation</a> about your ownership or promotion of a stock, don’t insider trade that stock.
-                </li>
-                <br/>
-                Honorary Eleventh Law:
-                <li>
-                    If you are planning to insider trade, probably don’t keep a Google Doc spreadsheet of the <a href="https://www.bloomberg.com/view/articles/2018-08-12/the-10-laws-of-insider-trading">Money Stuff Laws of Insider Trading</a>. That will definitely show up in the SEC’s complaint against you. If you’re gonna insider trade, you have to keep track of these rules in your head, even at the risk of forgetting a few now and then.
-                </li>
-            </ol>
-        </div>
+<body class="center">
 
-        <h4 class="subtitle">
-            § Additional Information
-        </h4>
+    <div class="hed">
+        Disclaimer: None of this is legal advice.
+    </div>
 
-        <div class="extra">
-            <p>
-                See <a href="https://www.law.cornell.edu/cfr/text/17/240.10b5-1">Section 10b5</a>, which clarifies the SEC's stance on insider trading with material nonpublic information.
-            </p>
-            <p>
-                This site was inspired by Matt Levine's <a href="https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine">Money Stuff</a> articles, where insider trading and how not to do it are a recurring theme.
-            </p>
-        </div>
+    <h1 class="title">§ Laws of Insider Trading</h1>
 
-        <footer>
-                <a href="https://github.com/0xnf/lawsofinsidertrading.com">
-                    <img height="16" width="16" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg" />
-                    <span style="font-size:12px">Source available on GitHub</span>
-                </a>
-        </footer>
-        
+    <div>
+        <ol>
+            <li>
+                Don't do it.
+            </li>
+            <li>
+                Don’t do it by <a
+                    href="https://www.bloomberg.com/view/articles/2016-06-14/social-software-and-suspicious-options">buying
+                    short-dated out-of-the-money call options</a> on merger targets.
+            </li>
+            <li>
+                Don’t <a href="https://www.bloomberg.com/view/articles/2016-06-17/boardroom-battles-and-car-washes">text
+                    or email</a> about it.
+            </li>
+            <li>
+                Don’t do it in <a
+                    href="https://www.bloomberg.com/view/articles/2017-03-16/robot-traders-and-super-hedge-funds">your
+                    mother’s account</a>.
+            </li>
+            <li>
+                Don’t do it by <a
+                    href="https://www.bloomberg.com/view/articles/2017-04-21/juice-hacking-and-mortgage-tech">planting
+                    bombs</a> at a company and shorting its stock.
+            </li>
+            <li>
+                Don’t do it while employed at the <a
+                    href="https://www.bloomberg.com/view/articles/2017-05-04/investing-stores-and-libyan-bribes">
+                    Securities and Exchange Commission</a>.
+            </li>
+            <li>
+                Don’t <a
+                    href="https://www.bloomberg.com/view/articles/2017-07-13/main-street-and-premium-listings">Google</a>
+                “how to insider trade without getting caught” before doing it.
+            </li>
+            <li>
+                If you <em>didn’t</em> insider trade, <a
+                    href="https://www.bloomberg.com/view/articles/2017-09-19/memory-mortgages-and-puzzles">don’t
+                    forget</a> and accidentally confess to insider trading.
+            </li>
+            <li>
+                If you are going to insider trade, do it in a company that is <a
+                    href="https://www.bloomberg.com/view/articles/2017-10-17/indexes-insiders-and-icos">far away</a>
+                from a Securities and Exchange Commission office. Like, physically.
+            </li>
+            <li>
+                If you are already under a <a
+                    href="https://www.bloomberg.com/view/articles/2018-08-09/musk-s-money-mystery-intrigues-sec">federal
+                    ethics investigation</a> about your ownership or promotion of a stock, don’t insider trade that
+                stock.
+            </li>
+            <li>
+                If you are planning to insider trade, probably don’t keep a Google Doc spreadsheet of the <a
+                    href="https://www.bloomberg.com/view/articles/2018-08-12/the-10-laws-of-insider-trading">Money Stuff
+                    Laws of Insider Trading</a>. That will definitely show up in the SEC’s complaint against you. If
+                you’re gonna insider trade, you have to keep track of these rules in your head, even at the risk of
+                forgetting a few now and then.
+            </li>
+            <li>
+                If you insider trade by buying short-dated out-of-the-money call options on a merger target, and the SEC
+                <a href="https://www.bloomberg.com/opinion/articles/2019-04-30/warren-buffett-funds-an-elephant">freezes
+                    your profits</a>, don’t show up in a U.S. court to ask for them back.
+            </li>
+        </ol>
+    </div>
 
-    </body>
+    <h4 class="subtitle">
+        § Additional Information
+    </h4>
+
+    <div class="extra">
+        <p>
+            See <a href="https://www.law.cornell.edu/cfr/text/17/240.10b5-1">Section 10b5</a>, which clarifies the SEC's
+            stance on insider trading with material nonpublic information.
+        </p>
+        <p>
+            This site was inspired by Matt Levine's <a
+                href="https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine">Money Stuff</a> articles,
+            where insider trading and how not to do it are a recurring theme.
+        </p>
+    </div>
+
+    <footer>
+        <a href="https://github.com/0xnf/lawsofinsidertrading.com">
+            <img height="16" width="16" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg" />
+            <span style="font-size:12px">Source available on GitHub</span>
+        </a>
+    </footer>
+
+
+</body>
+
 </html>
