@@ -27,27 +27,28 @@
             padding-left: 0;
             margin-bottom: 0.5em;
             counter-increment: item;
-            list-style: none inside
+            list-style: none inside;
         }
 
         ol>li:before {
             content: "("counter(item) ")";
             font-weight: bold;
-            padding-right: 0.5em
+            padding-right: 0.5em;
         }
 
         ul {
-            counter-reset: chapter
+            counter-reset: chapter;
         }
 
         ul>li {
-            counter-increment: chapter
+            counter-increment: chapter;
+            list-style: none inside;
         }
 
         ul>li:before {
             content: "("counter(chapter, lower-alpha)")";
             font-weight: bold;
-            padding-right: 0.5em
+            padding-right: 0.5em;
         }
 
         .title {
@@ -157,7 +158,7 @@
 
                 <ul>
                     <li>
-                        Corrolary: go ahead and <a
+                        Corollary: go ahead and <a
                             href="https://www.bloomberg.com/opinion/articles/2019-05-03/softbank-has-a-bigger-weirder-vision?srnd=opinion#the-twelfth-law-of-insider-trading">show
                             up in court</a> to ask for them back
                         <i>as long as you’ve deleted all
