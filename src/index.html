@@ -36,6 +36,20 @@
             padding-right: 0.5em
         }
 
+        ul {
+            counter-reset: chapter
+        }
+
+        ul>li {
+            counter-increment: chapter
+        }
+
+        ul>li:before {
+            content: "("counter(chapter, lower-alpha)")";
+            font-weight: bold;
+            padding-right: 0.5em
+        }
+
         .title {
             clear: both;
             color: #b31b1b;
@@ -140,6 +154,16 @@
                 If you insider trade by buying short-dated out-of-the-money call options on a merger target, and the SEC
                 <a href="https://www.bloomberg.com/opinion/articles/2019-04-30/warren-buffett-funds-an-elephant">freezes
                     your profits</a>, don’t show up in a U.S. court to ask for them back.
+
+                <ul>
+                    <li>
+                        Corrolary: go ahead and <a
+                            href="https://www.bloomberg.com/opinion/articles/2019-05-03/softbank-has-a-bigger-weirder-vision?srnd=opinion#the-twelfth-law-of-insider-trading">show
+                            up in court</a> to ask for them back
+                        <i>as long as you’ve deleted all
+                            the evidence first.</i>
+                    </li>
+                </ul>
             </li>
         </ol>
     </div>
