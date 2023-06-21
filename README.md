@@ -23,7 +23,7 @@ The rules are:
 
 Inspired by Matt Levine's Money Stuff.
 
-<small>Thanks to [@mcdickenson](https://github.com/mcdickenson) for their contributions </small>
+<small>Thanks to [@mcdickenson](https://github.com/mcdickenson), [@glyph](https://github.com/glyph) for their contributions </small>
 
 <a name="myfootnote1">1</a>: [*The 10 Laws of Insider Trading – So Far*](https://www.bloomberg.com/opinion/articles/2018-08-12/the-10-laws-of-insider-trading)  
 <a name="myfootnote2">2</a>: [*Social Software and Suspicious Options*](https://www.bloomberg.com/view/articles/2016-06-14/social-software-and-suspicious-options)  
