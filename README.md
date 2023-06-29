@@ -20,6 +20,7 @@ The rules are:
 1. If you are going to insider trade, or commit securities fraud generally, don’t talk loudly about it on the Acela from Washington to New York.<sup>[15](#myfootnote15)</sup>
 1. Don’t insider trade while drunk.<sup>[16](#myfootnote16)</sup>
     * Corollary: Only insider trade while drunk.<sup>[17](#myfootnote17)</sup>
+1. Don't insider trade if you’re a police chief.<sup>[18](#myfootnote18)</sup>
 
 Inspired by Matt Levine's Money Stuff.
 
@@ -42,4 +43,5 @@ Inspired by Matt Levine's Money Stuff.
 <a name="myfootnote15">15</a>: [*The Libor Change is Coming*](https://www.bloomberg.com/opinion/articles/2019-08-27/the-libor-change-is-coming)  
 <a name="myfootnote16">16</a>: [*Don't Insider Trade Drunk on the Squash Court*](https://www.bloomberg.com/opinion/articles/2023-06-16/don-t-insider-trade-drunk-on-the-squash-court)  
 <a name="myfootnote17">17</a>: [*Debt Costs More When Rates Go Up*](https://www.bloomberg.com/opinion/articles/2023-06-20/debt-costs-more-when-rates-go-up)  
+<a name="myfootnote18">18</a>: [*The Big Banks Aren’t Stressed*](https://www.bloomberg.com/opinion/articles/2023-06-29/the-big-banks-aren-t-stressed)  
 
