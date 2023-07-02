@@ -24,6 +24,12 @@ The rules are:
 
 Inspired by Matt Levine's Money Stuff.
 
+<small> Contributors
+* [@mcdickenson](https://github.com/mcdickenson)
+* [@glyph](https://github.com/glyph)
+* [@ncteisen](https://github.com/ncteisen)
+</small>
+
 <small>Thanks to [@mcdickenson](https://github.com/mcdickenson), [@glyph](https://github.com/glyph) for their contributions </small>
 
 <a name="myfootnote1">1</a>: [*The 10 Laws of Insider Trading – So Far*](https://www.bloomberg.com/opinion/articles/2018-08-12/the-10-laws-of-insider-trading)  
