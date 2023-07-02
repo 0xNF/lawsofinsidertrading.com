@@ -30,8 +30,6 @@ Inspired by Matt Levine's Money Stuff.
 * [@ncteisen](https://github.com/ncteisen)
 </small>
 
-<small>Thanks to [@mcdickenson](https://github.com/mcdickenson), [@glyph](https://github.com/glyph) for their contributions </small>
-
 <a name="myfootnote1">1</a>: [*The 10 Laws of Insider Trading – So Far*](https://www.bloomberg.com/opinion/articles/2018-08-12/the-10-laws-of-insider-trading)  
 <a name="myfootnote2">2</a>: [*Social Software and Suspicious Options*](https://www.bloomberg.com/view/articles/2016-06-14/social-software-and-suspicious-options)  
 <a name="myfootnote3">3</a>: [*Boardroom Battles and Car Washes*](https://www.bloomberg.com/view/articles/2016-06-17/boardroom-battles-and-car-washes)  
